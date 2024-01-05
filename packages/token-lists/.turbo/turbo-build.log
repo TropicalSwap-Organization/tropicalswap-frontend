@@ -1,0 +1,23 @@
+warning package.json: No license field
+$ tsup
+CLI Building entry: {"index":"./src/index.ts","react":"./react/index.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.6.3
+CLI Using tsup config: /Users/benoit/Documents/Site-Pro/Site-crypto/swap-test/packages/token-lists/tsup.config.ts
+CLI Target: es6
+ESM Build start
+CJS Build start
+ESM dist/index.mjs                 239.00 B
+ESM dist/chunk-2L3ZO4UM.mjs        1.42 KB
+ESM dist/chunk-YBVZDUCZ.mjs        1.92 KB
+ESM dist/getTokenList-2FAKUE6D.mjs 13.43 KB
+ESM dist/react.mjs                 8.47 KB
+ESM ⚡️ Build success in 37ms
+CJS dist/react.js 28.00 KB
+CJS dist/index.js 3.11 KB
+CJS ⚡️ Build success in 36ms
+DTS Build start
+DTS ⚡️ Build success in 8045ms
+DTS dist/index.d.ts          1.51 KB
+DTS dist/react.d.ts          2.50 KB
+DTS dist/types-d752b62d.d.ts 1.02 KB
