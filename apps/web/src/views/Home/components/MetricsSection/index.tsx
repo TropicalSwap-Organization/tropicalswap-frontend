@@ -331,7 +331,8 @@ const Stats = () => {
           mb={["16px", null, null, "0"]}
         >
           <StatCardContent
-            headingText={t("$%users% users", { users })}
+            /*  headingText={t("$%users% users", { users })} */
+            headingText={t("%users% users", { users: "N/A" })}
             bodyText={t("Total Value Locked")}
             highlightColor={theme.colors.secondary}
           />
@@ -342,7 +343,8 @@ const Stats = () => {
           mb={["16px", null, null, "0"]}
         >
           <StatCardContent
-            headingText={t("$%trades% trades", { trades })}
+            /*  headingText={t("$%trades% trades", { trades })} */
+            headingText={t("%trades% trades", { trades: "N/A" })}
             bodyText={t("Market Cap")}
             highlightColor="red"
           />
@@ -353,7 +355,8 @@ const Stats = () => {
           mb={["16px", null, null, "0"]}
         >
           <StatCardContent
-            headingText={t("$%tvl% staked", { tvl: 0 })}
+            /*  headingText={t("$%tvl% staked", { tvl: 0 })} */
+            headingText={t("%tvl% staked", { tvl: "N/A" })}
             /*  headingText={t("$%tvl% staked", { tvl: tvlString })} */
             bodyText={t("Circulating Supply")}
             highlightColor={theme.colors.failure}
@@ -361,7 +364,7 @@ const Stats = () => {
         </IconCard>
         <IconCard {...VolumeTradeData}>
           <StatCardContent
-            headingText={t("$%tvl% staked", { tvl: 0 })}
+            headingText={t("%tvl% staked", { tvl: "N/A" })}
             /*    headingText={t("$%tvl% staked", { tvl: tvlString })} */
             bodyText={t("Total Volume Traded")}
             highlightColor={theme.colors.failure}
